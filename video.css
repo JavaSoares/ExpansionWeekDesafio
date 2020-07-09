@@ -1,0 +1,202 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+
+body {
+    background-color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    max-width: 1400px;
+    height: 1123px;
+    margin: auto;
+}
+
+
+header{
+    display: flex;
+    margin: 36px;
+    margin-left: 0;
+    align-items: center;
+    flex-direction: row;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    margin-left: 122px;
+}
+
+header nav a{
+    margin-right: 30px;
+    text-decoration: none;
+    
+    font-weight: normal;
+    font-size: 16px;
+    color: #111111;
+    line-height: 26px;
+}
+
+header nav a:hover{
+    transition: 400ms;
+    font-weight: bolder;
+}
+
+.conteudo {
+    display: table;
+    background: #FBDFDB;
+    border-radius: 30px;
+    margin-bottom: 56px;
+}
+
+.imagem {
+    display: table-cell;
+    float: right;
+    margin-right: 80px;
+}
+
+.texto {
+    display: table-cell;
+    float: left;
+    width: 316px;
+    margin-top: 80px;
+    margin-right: 260px;
+    margin-left: 60px;
+    font-family: Roboto-Bold;
+    font-size: 32px;
+    color: #111111;
+}
+
+.texto p {
+    opacity: 0.7;
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    color: #000000;
+    line-height: 28px;
+}
+
+#wrapper {
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    color: #111111;
+}
+
+/*==== CARDS ====*/
+.cards {
+    max-width: 1400px;
+    height: 1123px;
+    display: grid; /* display: grid vai deixar um do lado do outro */
+    grid-template-columns: 1fr 1fr 1fr; /* grid-template-columns três colunas 1fr flexivel */
+    gap: 20px; /* gap vai separar as colunas */
+
+}
+
+.card {
+    background-color: var(--color-rocket);
+}
+
+.card__image-container img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.card__content {
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    color: #111111;
+}
+
+.card__info {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #777777;
+}
+
+/***MODAL*****/
+.modal-overlay {
+    background: #000000;
+    background-color: rgba(0,0,0,0.6);
+    width: 1400px;
+    height: 1123px;
+    top: 0;
+    position: fixed;   
+    opacity: 0.6;
+    visibility: hidden;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal {
+    width: 660px;
+    height: 413px;
+    background-color: white;
+    opacity: 100; 
+    border-radius: 16px; 
+    margin: 25vh auto;   
+    position: relative;    
+}
+
+.modal-content {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.modal-content iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+
+.modal-overlay img {
+    width: 600px;
+    height: 315px;
+    border-radius: 16px;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+
+.modal-info {
+    line-height: 100%;
+    text-align: center;
+}
+
+.modal-info h3 {
+   font-size: 24px;
+}
+
+.modal-info  p {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    color: #777777;
+}
+
+.close-modal {
+    position: absolute;
+    margin: 0 281px 30px 281px;
+    font-size: 16px;
+    color:  #999999;
+    cursor: pointer;   
+
+}
+
+#footer p{
+    padding: 5px;
+    text-align: center;
+    width: auto;
+    background-color: #EEEEEE;
+    margin: 20px auto 0;
+
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
