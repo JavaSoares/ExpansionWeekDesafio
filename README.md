@@ -12,13 +12,13 @@
   <a>Projeto elaborado com a intenção de que as pessoas façam adoção de petz</a>;
 </p>
 
-## : Materiais
+##  Materiais
 
 - [HTML]
 - [CSS]
 - [JAVASCRIPT]
 
-## :rocket Expansion Week: Desafio 2
+## Rocketseat Expansion Week: Desafio 2
 
 - [Pensar em um projeto]
 - [Ter um mentor ou mentora para o seu projeto]
