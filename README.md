@@ -9,7 +9,7 @@
 <blockquote align="center">“Faça seu melhor, mas sempre com prazo de entrega!”</blockquote>
 
 <p align="center">
-  <a>Projeto elaborado com a intenção de que as pessoas façam adoção de petz</a>;
+  <a>Projeto elaborado com a intenção de que as pessoas façam adoção de pets</a>;
 </p>
 
 ##  Materiais
