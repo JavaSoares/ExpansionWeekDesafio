@@ -1,7 +1,8 @@
 <h1 align="center">
     <img alt="Expansion Week" src="Desafio_Expansion_Week.png" width="400px" />
 </h1>
-
+---
+![Adoção - Google Chrome 2020-07-13 12-58-36](https://user-images.githubusercontent.com/64690628/87326815-a1e8fd80-c509-11ea-9695-b989286bf4ec.gif)
 ---
 <blockquote align="center">“Faça seu melhor, mas sempre com prazo de entrega!”</blockquote>
 
